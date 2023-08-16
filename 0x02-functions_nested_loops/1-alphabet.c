@@ -7,7 +7,7 @@ void print_alphabet(void)
 char ph;
 for (ph = 97; ph <= 122; ph++)
 {
-putchar(ph);
+_putchar(ph);
 }
-putchar('\n');
+_putchar('\n');
 }
