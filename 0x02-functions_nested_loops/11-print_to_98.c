@@ -7,12 +7,12 @@
  */
 void print_to_98(int n)
 {
-int do;
+int digit;
 if (n > 98)
-for (do = n; do > 98; do++)
-printf("%d, ", do);
+for (digit = n; digit  > 98; digit++)
+printf("%d, ", digit);
 else
-for (do = n; do < 98; do++)
-printf("%d, ", do);
+for (digit = n; digit < 98; digit++)
+printf("%d, ", digit);
 printf("98\n");
 }
