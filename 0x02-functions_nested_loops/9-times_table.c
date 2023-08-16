@@ -14,7 +14,7 @@ for (g = 0; g <= 9; g++)
 _putchar('0');
 _putchar(',');
 _putchar(' ');
-for (h = 0; h <= 9; h++)
+for (h = 1; h <= 9; h++)
 {
 j = (g * h);
 if ((j / 10) > 0)
