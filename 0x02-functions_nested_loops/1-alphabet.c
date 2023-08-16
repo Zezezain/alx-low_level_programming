@@ -1,6 +1,7 @@
-#include "main"
+#include "main.h"
 /**
- * print_alphabet - print all alphabets
+ * print_alphabet - display all alpgabet
+ *
  */
 void print_alphabet(void)
 {
