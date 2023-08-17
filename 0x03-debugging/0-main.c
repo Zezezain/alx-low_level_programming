@@ -3,6 +3,7 @@
 /**
 * main - tests function that prints if integer is positive or negative
 * Return: 0
+* @r: function parameter
 */
 
 int main(void)
