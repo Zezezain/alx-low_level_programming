@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strlen - display the length of string
+ *_strlen - display the length of string return intger
  *@s: input parameter
  *Returm: return 0
  */
@@ -10,5 +10,5 @@ int _strlen(char *s)
 int leng;
 for (leng = 0; *s != '\0'; s++)
 	++leng;
-return (leng)
+return (leng);
 }
