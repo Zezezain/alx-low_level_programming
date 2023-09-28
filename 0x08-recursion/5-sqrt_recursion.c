@@ -13,7 +13,7 @@ if (m * m == l)
 {
 return (m);
 }
-else if (m * m > 4)
+else if (m * m > l)
 {
 return (-1);
 }
