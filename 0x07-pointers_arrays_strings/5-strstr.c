@@ -34,7 +34,7 @@ while (*n && *n == *m)
 m++;
 n++;
 }
-if (*m == '\0')
+if (*n == '\0')
 return (1);
 else
 return (0);
