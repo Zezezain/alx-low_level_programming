@@ -8,7 +8,7 @@ char *_strdup(char *str)
 {
 int size = 0;
 char *n;
-int j;
+int j = 0;
 if (str == NULL)
 return (NULL);
 for (; str[size] != '\0'; size++)
@@ -17,7 +17,7 @@ if (n == 0)
 return (NULL);
 else
 {
-for (j = 0; j < size; j++)
+for (; j < size; j++)
 n[j] = str[j];
 }
 return (n);
