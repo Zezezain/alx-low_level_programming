@@ -11,15 +11,15 @@ char *n;
 int i = 0;
 if (str == NULL)
 return (NULL);
-for (; str[size] != '\0'; size++)
-n = malloc(size * sizeof(*str) + 1);
+for (; str[i] != '\0'; size++)
+n = malloc(sizeof(char) * (i + 1));
 if (n == 0)
 return (NULL);
 else
 {
-for (; i < size; i++)
+for (; str[size]; size++)
 ;
-n[i] = str[i];
+n[size] = str[size];
 }
 return (n);
 }
