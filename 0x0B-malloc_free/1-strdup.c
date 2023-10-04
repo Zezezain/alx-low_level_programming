@@ -18,6 +18,7 @@ return (NULL);
 else
 {
 for (; i < size; i++)
+;
 n[i] = str[i];
 }
 return (n);
