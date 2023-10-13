@@ -1,8 +1,8 @@
 #include "3-calc.h"
 
 /**
- *op_add - unction add to umbers
- *@a: the first number 
+ *op_add - function add to umbers
+ *@a: the first number
  *@b: the second number
  *Return: integer the sum
  */

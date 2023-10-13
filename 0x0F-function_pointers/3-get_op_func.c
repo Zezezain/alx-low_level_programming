@@ -1,4 +1,5 @@
 #include "3-calc.h"
+
 /**
  *get_op_func - function that selects the correct function
  *@s: string operation
@@ -18,8 +19,8 @@ int i = 0;
 while (i < 5)
 {
 if (s && s[0] == ops[i].op[0] && !s[1])
-return(ops[i].f);
+return (ops[i].f);
 i++;
 }
-return(NULL);
+return (NULL);
 }
