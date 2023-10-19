@@ -14,7 +14,6 @@ while (*s++)
 i++;
 return (i);
 }
-
 /**
  *print_list - prints alist
  *@h: pointer
